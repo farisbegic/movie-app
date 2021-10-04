@@ -14,7 +14,7 @@ function App() {
             <Header />
             <div className="container">
                 <Switch>
-                    <Route exact path="/" component={Home}></Route>
+                    <Route exact path="/movie-app" component={Home}></Route>
                     <Route path="/movie/:id" component={MovieDetail}></Route>
                     <Route component={NotFound}></Route>
                 </Switch>
