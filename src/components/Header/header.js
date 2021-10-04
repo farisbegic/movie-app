@@ -6,7 +6,7 @@ import './header.scss'
 const Header = () => {
     return (
         <header className="header">
-            <Link to="/">
+            <Link to="/movie-app">
                 <div className="logo">MovieApp</div>
             </Link>
             <div className="user-image">
